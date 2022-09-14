@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> match with the screenshot 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-bczRLJ kIOTIl"
+    >
+      <header
+        class="sc-gsnTZi xxDRN"
+      >
+        <div
+          class="sc-eCYdqJ kSFQMJ"
+        >
+          <svg
+            class="logo"
+            height="40vmin"
+            role="img"
+          >
+            logo.svg
+          </svg>
+        </div>
+        <p>
+          Edit 
+          <code>
+            src/App.tsx
+          </code>
+           and save to reload.
+        </p>
+        <a
+          class="sc-hKMtZM fHomBZ"
+          href="https://reactjs.org"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Learn React
+        </a>
+        <button
+          class="sc-dkzDqf fKwYlp primary"
+          type="button"
+        >
+          Spin logo
+        </button>
+      </header>
+    </div>
+  </div>
+</body>
+`;
