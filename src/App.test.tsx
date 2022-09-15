@@ -7,21 +7,4 @@ describe("<App />", () => {
     const { baseElement } = render(<App />);
     expect(baseElement).toMatchSnapshot();
   });
-
-  it("starts the logo to static", () => {
-    render(<App />);
-
-    const button = screen.getByRole("button");
-
-    expect(button.textContent).toBe("Spin logo");
-  });
-
-  it("is switching the logo to spin", () => {
-    render(<App />);
-
-    const button = screen.getByRole("button");
-    fireEvent.click(button);
-
-    expect(button.textContent).toBe("Static logo");
-  });
 });

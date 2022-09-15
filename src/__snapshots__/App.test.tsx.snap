@@ -10,7 +10,8 @@ exports[`<App /> match with the screenshot 1`] = `
         class="sc-gsnTZi xxDRN"
       >
         <div
-          class="sc-eCYdqJ kSFQMJ"
+          class="sc-hKMtZM kqqsny"
+          rotate="0"
         >
           <svg
             class="logo"
@@ -19,6 +20,12 @@ exports[`<App /> match with the screenshot 1`] = `
           >
             logo.svg
           </svg>
+          <button
+            class="sc-eCYdqJ iUfoxH primary switch-logo-button"
+            type="button"
+          >
+            Spin logo
+          </button>
         </div>
         <p>
           Edit 
@@ -28,19 +35,13 @@ exports[`<App /> match with the screenshot 1`] = `
            and save to reload.
         </p>
         <a
-          class="sc-hKMtZM fHomBZ"
+          class="sc-dkzDqf gIyjLW"
           href="https://reactjs.org"
           rel="noopener noreferrer"
           target="_blank"
         >
           Learn React
         </a>
-        <button
-          class="sc-dkzDqf fKwYlp primary"
-          type="button"
-        >
-          Spin logo
-        </button>
       </header>
     </div>
   </div>
